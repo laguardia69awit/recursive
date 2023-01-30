@@ -1,0 +1,39 @@
+class HelloWorld {
+
+    static int numOfPalindromes = 0;
+    //PALINDROME CHECKER
+    public static void palindrome(){
+        String num1 = "342",num2 = "231",num3 = "234", reverse1 = "",reverse2 = "", reverse3 ="";
+        
+        for (int i = (num1.length()-1); i >= 0;i--){
+            reverse1 = reverse1 + num1.charAt(i);
+            reverse2 = reverse2 + num2.charAt(i);
+            reverse3 = reverse3 + num3.charAt(i);
+        }
+        
+        if (reverse.contains(num1 || num2 || num3) || reverse2.contains(num1 || num2 || num3) || reverse3.contains(num1 || num2 || num3)){
+            numOfPalindromes ++;
+        }
+    }
+    
+    //FACTORIAL
+    public  static int factorial(int num1){
+    
+    if (num1 == 0){
+        return 1;        
+    }
+        return num1 * factorial(num1-1);
+    } 
+    
+    public static int combination(int num1){
+    
+      int combination  = factorial(n)/(factorial(n-r)*factorial(r));
+    
+    }
+    
+    public static void main(String[] args) {
+        
+        int totalCombinations = combinations - numOfpalindromes;
+
+    }
+}
